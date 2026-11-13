@@ -16,8 +16,8 @@
     --card-head-text-box-shadow: 1px 1px 3px gray;
     --body-text: 1rem;
     --card-body-text: clamp(1rem, (0.75+1.5vw), 2rem);
-    --head-text-font: Roboto-bold;
-    --body-text-font: Roboto;
+    --head-text-font:sans-serif;
+    --body-text-font:Tahoma;
     --card-border: 6px solid gold;
     --card-text-color: rgb(126, 126, 126);
     --dark-icon-color: rgb(36, 36, 36);
@@ -50,6 +50,7 @@ ul,
 li {
     padding: 0;
     margin: 0;
+    
 }
 
 h1,
@@ -88,14 +89,15 @@ ol[role="list"] {
 }
 
 .cards h1 {
-    font-family: var(--head-text-font,roboto-bold);
+    font-family: var(--head-text-font);
     font-size: var(--card-head-text);
+    font-weight: bold;
 }
 
 .cards p {
     font-family: var(--body-text-font,Roboto);
     font-size: var(--card-body-text);
-    font-weight: lighter;
+    font-weight:200;
     color: var(--card-text-color);
     letter-spacing: 0px;
 }
@@ -201,7 +203,8 @@ input {
 
 .header-components h1 {
     font-size: var(--card-head-text);
-    font-family: var(--head-text-font,roboto-bold);
+    font-family: var(--head-text-font,);
+    font-weight: bold;
 }
 
 .profile-details>span+h1 {
@@ -212,6 +215,7 @@ input {
 .profile-details :nth-child(3) {
     font-size: var(--card-head-text);
     font-family: var(--head-text-font,roboto-bold);
+    font-weight: bold;
 }
 
 
@@ -306,6 +310,7 @@ main {
     font-family: var(--head-text-font,roboto-bold);
     font-size: var(--card-head-text);
     margin: 5px;
+    font-weight: bold;
 }
 
 .main-content {
@@ -316,13 +321,14 @@ main {
 
 .announcement {
     grid-column: 2/2;
-    grid-row: 1/2;
+    grid-row: 1/2;;
 }
 
 .announcement h1 {
     font-family: var(--head-text-font,roboto-bold);
     font-size: var(--card-head-text);
     margin: 5px;
+    font-weight: bold;
 }
 
 .announcement>h1+.cards {
@@ -347,6 +353,7 @@ main {
 .trending h1 {
     font-family: var(--head-text-font,roboto-bold);
     font-size: var(--card-head-text);
+    font-weight: bold;
 }
 
 .announcement-2 {
