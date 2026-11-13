@@ -88,12 +88,12 @@ ol[role="list"] {
 }
 
 .cards h1 {
-    font-family: var(--head-text-font);
+    font-family: var(--head-text-font,roboto-bold);
     font-size: var(--card-head-text);
 }
 
 .cards p {
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font,Roboto);
     font-size: var(--card-body-text);
     font-weight: lighter;
     color: var(--card-text-color);
@@ -181,7 +181,7 @@ ol[role="list"] {
 
 .nav-title h1 {
     color: var(--light-icon-color);
-    font-family: var(--head-text-font);
+    font-family: var(--head-text-font,roboto-bold);
     font-size: var(--card-head-text);
 }
 
@@ -201,17 +201,17 @@ input {
 
 .header-components h1 {
     font-size: var(--card-head-text);
-    font-family: var(--head-text-font);
+    font-family: var(--head-text-font,roboto-bold);
 }
 
 .profile-details>span+h1 {
     font-size: 0.75rem;
-    font-family: var(--head-text-font);
+    font-family: var(--head-text-font,roboto-bold);
 }
 
 .profile-details :nth-child(3) {
     font-size: var(--card-head-text);
-    font-family: var(--head-text-font);
+    font-family: var(--head-text-font,roboto-bold);
 }
 
 
@@ -303,7 +303,7 @@ main {
 }
 
 .project h1 {
-    font-family: var(--head-text-font);
+    font-family: var(--head-text-font,roboto-bold);
     font-size: var(--card-head-text);
     margin: 5px;
 }
@@ -320,7 +320,7 @@ main {
 }
 
 .announcement h1 {
-    font-family: var(--head-text-font);
+    font-family: var(--head-text-font,roboto-bold);
     font-size: var(--card-head-text);
     margin: 5px;
 }
@@ -345,7 +345,7 @@ main {
 }
 
 .trending h1 {
-    font-family: var(--head-text-font);
+    font-family: var(--head-text-font,roboto-bold);
     font-size: var(--card-head-text);
 }
 
@@ -460,7 +460,7 @@ main {
 .home h2 {
     margin-top: 2px;
     font-size: 1rem;
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font, Roboto);
     color: var(--light-icon-color);
 }
 
@@ -482,7 +482,7 @@ main {
 .profile h2 {
     margin-top: 2px;
     font-size: 1rem;
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font, Roboto);
     color: var(--light-icon-color);
 }
 
@@ -504,7 +504,7 @@ main {
 .message h2 {
     margin-top: 2px;
     font-size: 1rem;
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font, Roboto);
     color: var(--light-icon-color);
 }
 
@@ -526,7 +526,7 @@ main {
 .history h2 {
     margin-top: 2px;
     font-size: 1rem;
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font, Roboto);
     color: var(--light-icon-color);
 }
 
@@ -548,7 +548,7 @@ main {
 .tasks h2 {
     margin-top: 2px;
     font-size: 1rem;
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font, Roboto);
     color: var(--light-icon-color);
 }
 
@@ -570,7 +570,7 @@ main {
 .community h2 {
     margin-top: 2px;
     font-size: 1rem;
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font, Roboto);
     color: var(--light-icon-color);
 }
 
@@ -592,7 +592,7 @@ main {
 .setting h2 {
     margin-top: 2px;
     font-size: 1rem;
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font, Roboto);
     color: var(--light-icon-color);
 }
 
@@ -614,7 +614,7 @@ main {
 .privacy h2 {
     margin-top: 2px;
     font-size: 1rem;
-    font-family: var(--body-text-font);
+    font-family: var(--body-text-font, Roboto);
     color: var(--light-icon-color);
 }
 
